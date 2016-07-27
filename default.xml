@@ -458,7 +458,6 @@
 
   <!--Victara additions-->
   <project path="device/motorola/victara" name="android_device_motorola_victara" remote="cm"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm"/>
   <project path="kernel/motorola/msm8974" name="android_kernel_motorola_msm8974" remote="cm"/>
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
 
