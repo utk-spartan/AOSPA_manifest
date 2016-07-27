@@ -461,7 +461,7 @@
   <project path="kernel/motorola/msm8974" name="android_kernel_motorola_msm8974" remote="cm"/>
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
 
-  <!--bacon additions--->
+  <!--bacon additions-->
   <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="aospa"/>
   <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" remote="aospa"/>
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="blobs" revision="marshmallow-caf"/>
