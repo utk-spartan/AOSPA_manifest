@@ -29,7 +29,7 @@
            fetch="https://bitbucket.org"
            revision="master" />  
 
-  <default revision="refs/tags/android-6.0.1_r16"
+  <default revision="refs/tags/android-6.0.1_r63"
            remote="aosp"
            sync-j="4" />
 
@@ -58,7 +58,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
+  <project path="external/apache-http" name="android_external_apache-http" remote="aospa" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs,pdk-fs" />
@@ -127,13 +127,13 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <project path="external/jemalloc" name="android_external_jemalloc" remote="aospa" groups="pdk" />
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="aospa" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" />
@@ -160,7 +160,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/libpng" name="android_external_libpng" remote="aospa" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs,pdk-fs" />
@@ -188,6 +188,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
+  <project path="external/mm-dash" name="android_external_mm-dash" remote="aospa" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk-fs" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs,pdk-fs" />
@@ -205,7 +206,7 @@
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="aospa" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs,pdk-fs" />
@@ -225,13 +226,13 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
-  <project path="external/skia" name="platform/external/skia" remote="caf" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/skia" name="android_external_skia" remote="aospa" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="aospa" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" />
@@ -251,14 +252,13 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
-  <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <project path="external/webrtc" name="android_external_webrtc" remote="aospa" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="aospa" groups="pdk" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospa" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -422,7 +422,7 @@
   <project path="system/extras" name="android_system_extras" remote="aospa" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" remote="caf" groups="pdk" />
-  <project path="system/media" name="platform/system/media" remote="caf" groups="pdk" />
+  <project path="system/media" name="android_system_media" remote="aospa" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="aospa" groups="pdk" />
@@ -454,7 +454,8 @@
   <project path="system/qcom" name="platform/system/qcom" remote="caf" />
   <project path="vendor/qcom/opensource/bluetooth" name="platform/vendor/qcom-opensource/bluetooth" remote="caf" revision="LA.HB.1.1.1" />
   <project path="vendor/qcom/opensource/dataservices" name="platform/vendor/qcom-opensource/dataservices" remote="caf" revision="LA.BF.1.1.3_rb1.12" />
-  <project path="vendor/qcom/opensource/time-services" name="platform/vendor/qcom-opensource/time-services" remote="caf" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
+  <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.1.1" />
 
   <!--Victara additions-->
   <project path="device/motorola/victara" name="android_device_motorola_victara" remote="cm"/>
