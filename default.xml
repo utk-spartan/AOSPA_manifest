@@ -457,13 +457,4 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom-opensource_dpm" remote="aospa" />
   <project path="vendor/qcom/opensource/fm" name="platform/vendor/qcom-opensource/fm" remote="caf" revision="LA.HB.1.1.1" />
 
-  <!--Victara additions-->
-  <project path="device/motorola/victara" name="android_device_motorola_victara" remote="cm"/>
-  <project path="kernel/motorola/msm8974" name="android_kernel_motorola_msm8974" remote="cm"/>
-  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
-
-  <!--bacon additions-->
-  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="aospa"/>
-  <project path="kernel/oneplus/msm8974" name="android_kernel_oneplus_msm8974" remote="aospa"/>
-  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="blobs" revision="marshmallow-caf"/>
 </manifest>
