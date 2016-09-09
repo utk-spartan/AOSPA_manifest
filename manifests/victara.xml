@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest"/>
+
+  <!-- Obsolete Packages -->
+	<remove-project name="platform/prebuilts/android-emulator"/>
+</manifest>
+

@@ -19,7 +19,7 @@
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" groups="pdk-cw-fs,aospa" />
 
-  <!-- Packages -->>
+  <!-- Packages -->
   <!-- TODO: Add ParanoidHub -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
