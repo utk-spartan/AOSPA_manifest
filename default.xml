@@ -29,7 +29,7 @@
            sync-c="true" />
 
   <project groups="pdk-cw-fs,pdk-fs" name="device/common"/>
-  <!--project groups="pdk" name="device/generic/arm64"/>
+  <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
   <project groups="pdk" name="device/generic/common"/>
   <project groups="pdk" name="device/generic/goldfish"/>
@@ -40,7 +40,7 @@
   <project groups="pdk" name="device/generic/qemu"/>
   <project groups="pdk" name="device/generic/x86"/>
   <project groups="pdk" name="device/generic/x86_64"/>
-  <project groups="device,pdk" name="device/google/accessory/arduino"/>
+  <!--project groups="device,pdk" name="device/google/accessory/arduino"/>
   <project groups="device,pdk" name="device/google/accessory/demokit"/>
   <project groups="device,fugu,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
   <project groups="device,marlin" name="device/google/contexthub"/-->
@@ -49,8 +49,8 @@
   </project>
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
-  <!--project name="kernel/lk" path="bootable/bootloader/lk"/>
-  <project name="kernel/msm-3.18"/-->
+  <!--project name="kernel/lk" path="bootable/bootloader/lk"/-->
+  <project name="kernel/msm-3.18"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
   <project groups="pdk" name="platform/bionic" path="bionic"/>
