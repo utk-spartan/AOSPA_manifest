@@ -49,7 +49,7 @@
   </project>
   <project name="device/qcom/sepolicy"/>
   <project groups="pdk" name="device/sample"/>
-  <!--project name="kernel/lk" path="bootable/bootloader/lk"/-->
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
   <project name="kernel/msm-3.18"/>
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp"/>
   <project groups="pdk" name="platform/art" path="art"/>
