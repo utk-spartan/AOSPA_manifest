@@ -430,7 +430,6 @@
   <project groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools"/>
   <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8"/>
   <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"/>
-  <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
   <project groups="linux" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86"/>
   <project groups="linux,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
