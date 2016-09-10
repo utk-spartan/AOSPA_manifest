@@ -104,8 +104,6 @@
   <project groups="pdk" name="platform/external/e2fsprogs_custom" path="external/e2fsprogs_blocks"/>
   <project groups="pdk" name="platform/external/easymock" path="external/easymock"/>
   <project name="platform/external/ebtables" path="external/ebtables"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder"/>
-  <project groups="pdk" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder"/>
   <project groups="pdk" name="platform/external/eigen" path="external/eigen"/>
   <project groups="pdk" name="platform/external/elfutils" path="external/elfutils"/>
   <project groups="pdk" name="platform/external/emma" path="external/emma"/>
