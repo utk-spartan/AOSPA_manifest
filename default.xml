@@ -347,7 +347,6 @@
   <project groups="qcom,qcom_gps" name="platform/hardware/qcom/gps" path="hardware/qcom/gps"/>
   <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media"/>
   <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="generic_fs" name="platform/ndk" path="ndk"/>
@@ -453,7 +452,6 @@
   <project name="platform/system/nativepower" path="system/nativepower"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd"/>
   <project name="platform/system/nvram" path="system/nvram"/>
-  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
   <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl"/>
@@ -483,6 +481,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
   <project name="platform/packages/apps/TV" path="packages/apps/TV"/>
   <project name="toolchain/binutils"/>
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" clone-depth="1"/>
 
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml" />

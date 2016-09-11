@@ -25,7 +25,6 @@
   <project name="platform/developers/build" path="developers/build"/>
   <project name="platform/developers/demos" path="developers/demos"/>
   <project name="platform/developers/samples/android" path="developers/samples/android"/>
-  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"/>
   <project groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
   <project groups="pdk" name="platform/prebuilts/eclipse" path="prebuilts/eclipse"/>
   <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
@@ -58,5 +57,7 @@
   <project groups="pdk" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder"/>
   <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
   <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
+  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"/>
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
 </manifest>
 
