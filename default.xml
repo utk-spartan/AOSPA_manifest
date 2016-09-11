@@ -463,7 +463,6 @@
   <project name="platform/system/weaved" path="system/weaved"/>
   <project name="platform/system/webservd" path="system/webservd"/>
   <project groups="tools" name="platform/tools/external/fat32lib" path="tools/external/fat32lib"/>
-  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity"/>
   <project name="toolchain/binutils"/>
 

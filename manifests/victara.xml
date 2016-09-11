@@ -75,5 +75,6 @@
   <project groups="pdk" name="platform/external/eclipse-windowbuilder" path="external/eclipse-windowbuilder"/>
   <project groups="pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
   <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview"/>
+  <project groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle"/>
 </manifest>
 
