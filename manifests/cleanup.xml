@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest"/>
+
+  <!-- Obsolete Packages -->
+  <remove-project name="device/google/accessory/arduino"/>
+  <remove-project name="device/google/accessory/demokit"/>
+  <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/contexthub"/>
+  <remove-project name="platform/developers/build"/>
+  <remove-project name="platform/developers/demos"/>
+  <remove-project name="platform/developers/samples/android"/>
+  <remove-project name="platform/prebuilts/android-emulator"/>
+  <remove-project name="platform/prebuilts/eclipse"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
+  <remove-project name="platform/prebuilts/qemu-kernel"/>
+  <remove-project name="platform/external/eclipse-basebuilder"/>
+  <remove-project name="platform/external/eclipse-windowbuilder"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
+  <remove-project name="platform/tools/external/gradle"/>
+  <remove-project name="platform/system/qcom"/>
+  <remove-project name="platform/hardware/ril"/>
+</manifest>
+
