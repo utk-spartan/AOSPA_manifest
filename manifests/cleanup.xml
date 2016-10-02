@@ -15,7 +15,7 @@
   <remove-project name="platform/prebuilts/eclipse"/>
   <remove-project name="AOSPA/android_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
+  <remove-project name="AOSPA/android_gcc_linux-x86_arm-linux-android-4.9"/>
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9"/>
   <remove-project name="platform/prebuilts/qemu-kernel"/>
   <remove-project name="platform/external/eclipse-basebuilder"/>
