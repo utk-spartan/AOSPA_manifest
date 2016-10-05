@@ -438,7 +438,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/theme" name="android_vendor_theme" remote="aospa" groups="aospa" revision="marshmallow" />
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospa">
+  <project path="vendor/pa" name="android_vendor_pa" remote="AOSPA-CLARK">
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
