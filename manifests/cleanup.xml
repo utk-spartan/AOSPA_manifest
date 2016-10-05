@@ -35,6 +35,7 @@
   <remove-project name="platform/prebuilts/go/darwin-x86"/>
   <remove-project name="platform/prebuilts/ninja/darwin-x86"/>
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
-
+  <!--Remove chrome webview as its just compiled apks for all hardware variants which i dont want to sync as i use the google webview anyways-->
+  <remove-project name="platform/external/chromium-webview"/>
 </manifest>
 
