@@ -20,7 +20,17 @@
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario"
            revision="marshmallow" />
+  
+  <remote  name="AOSPA-CLARK"
+           fetch="https://github.com/AOSPA-CLARK"
+           revision="marshmallow-caf" />
+  
+  <remote  name="CyanogenMod"
+           fetch="https://github.com/CyanogenMod"/>
 
+  <remote  name="purenexus-clark"
+           fetch="https://github.com/purenexus-clark" />
+  
   <remote  name="github"
            fetch="https://github.com" />
 
