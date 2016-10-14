@@ -54,10 +54,20 @@
   <project path="packages/apps/Settings" name="AOSPA/android_packages_apps_Settings" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DeskClock" name="AOSPA/android_packages_apps_DeskClock" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <project path="packages/apps/SnapdragonCamera" name="AOSPA/android_packages_apps_SnapdragonCamera" remote="aospa" groups="aospa" />
 
   <!-- External -->
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa"/>
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="AOSPA/android_external_skia" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="platform/system/bt" />
@@ -88,6 +98,8 @@
   <!-- Telephony -->
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telecomm" name="AOSPA/android_packages_services_Telecomm" remote="aospa" groups="aospa" />
 
   <!-- Obsolete Packages -->
   <remove-project name="platform/cts"/>
