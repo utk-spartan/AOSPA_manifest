@@ -537,6 +537,6 @@
 
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml" />
-  <include name="manifests/cleanup.xml">
+  <include name="manifests/cleanup.xml"/>
 
 </manifest>
