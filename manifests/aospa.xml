@@ -19,13 +19,15 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospa" clone-depth="1"/>
 
   <!-- Compatibility layer -->
-  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04300-89xx.0" groups="aospa" />
+  <project name="platform/external/mm-dash" path="external/mm-dash" revision="refs/tags/LA.UM.5.6.r1-04600-89xx.0" groups="aospa" />
 
   <!-- Hardware -->
   <remove-project name="device/qcom/common" />
   <project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="aospa" groups="aospa" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="AOSPA/android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <project path="hardware/qcom/bootctrl" name="AOSPA/android_hardware_qcom_bootctrl" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/qcom/bt"/>
   <project path="hardware/qcom/bt" name="AOSPA/android_hardware_qcom_bt" remote="aospa" groups="aospa" />
   <remove-project name="platform/hardware/ril" />
@@ -34,6 +36,8 @@
   <project path="hardware/libhardware" name="AOSPA/android_hardware_libhardware" remote="aospa" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="AOSPA/android_hardware_broadcom_libbt" remote="aospa" groups="aospa" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="AOSPA/android_hardware_broadcom_wlan" remote="aospa" groups="aospa" />
 
   <!-- Native -->
   <remove-project name="platform/bionic" />
@@ -72,6 +76,8 @@
   <project path="packages/apps/ExactCalculator" name="AOSPA/android_packages_apps_ExactCalculator" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="AOSPA/android_packages_apps_Launcher3" remote="aospa" groups="aospa" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="AOSPA/android_packages_apps_SoundRecorder" remote="aospa" groups="aospa" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="AOSPA/android_packages_apps_PackageInstaller" remote="aospa" groups="aospa" />
   <project path="packages/apps/ParanoidHub" name="AOSPA/android_packages_apps_ParanoidHub" remote="aospa" groups="aospa" />
@@ -94,8 +100,12 @@
   <project path="external/e2fsprogs" name="AOSPA/android_external_e2fsprogs" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/f2fs-tools" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/vulkan-validation-layers" />
+  <project path="external/vulkan-validation-layers" name="AOSPA/android_external_vulkan-validation-layers" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nci" name="AOSPA/android_external_libnfc-nci" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/libunwind_llvm" />
+  <project path="external/libunwind_llvm" name="AOSPA/android_external_libunwind_llvm" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/libpng" />
@@ -106,6 +116,10 @@
   <project path="external/jemalloc" name="AOSPA/android_external_jemalloc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="AOSPA/android_external_sqlite" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="AOSPA/android_external_webp" remote="aospa" groups="aospa" />
+  <remove-project name="platform/external/webrtc" />
+  <project path="external/webrtc" name="AOSPA/android_external_webrtc" remote="aospa" groups="aospa" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="AOSPA/android_external_zlib" remote="aospa" groups="aospa" />
 
